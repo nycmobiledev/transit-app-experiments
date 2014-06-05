@@ -1,0 +1,18 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhoneRetina.7.1" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Wmt/App.cs">
+    <Files>
+      <File FileName="Wmt/Pages/StationDetailPage.cs" Line="18" Column="31" />
+      <File FileName="Wmt/Pages/StationsPage.cs" Line="23" Column="9" />
+      <File FileName="Wmt/Services/MtaService.cs" Line="1" Column="1" />
+      <File FileName="Wmt/App.cs" Line="17" Column="2" />
+      <File FileName="iOS/AppDelegate.cs" Line="23" Column="44" />
+      <File FileName="Android/MainActivity.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Wmt.Android AndroidDeviceId-Debug="192.168.56.101:5555" />
+</Properties>
