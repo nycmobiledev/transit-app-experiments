@@ -18,7 +18,8 @@ namespace NYCMobileDev.TransitApp.Infrastructure.GTFS.Static.Subway.FileSystem
 
         public IEnumerable<Stop> GetAllStops()
         {
-            var csv = new CsvReader(File.Op)
+            var csv = new CsvReader(File.OpenText(_stopFilePath));
+            var records = csv.GetRecords<Stop>();
         }
     }
 }
