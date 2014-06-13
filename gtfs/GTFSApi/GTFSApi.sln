@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.GTFS.Static.Subway.Entities", "Domain.GTFS.Static.Subway.Entities\Domain.GTFS.Static.Subway.Entities.csproj", "{5813243F-7785-44C4-8B7B-BCCDA4AAF831}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{075C0A28-30BF-47AD-8F18-D18EE6A68967}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{6DC96361-C083-4DA1-A7ED-507DCF2150BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{DA26DA49-07EC-4591-AFD4-E315411CDD10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.GTFS.Static.Subway.Interfaces", "Domain.GTFS.Static.Subway.Interfaces\Domain.GTFS.Static.Subway.Interfaces.csproj", "{E19E7FD4-AAF2-40FC-BE8F-6BD3D91BB145}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.GTFS.Static.Subway.UnitTests", "Tests.GTFS.Static.Subway.UnitTests\Tests.GTFS.Static.Subway.UnitTests.csproj", "{375F499E-FE96-45F6-ACBA-7E7429A1F5B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.GTFS.Static.Subway.FileSystem", "Infrastructure.GTFS.Static.Subway.FileSystem\Infrastructure.GTFS.Static.Subway.FileSystem.csproj", "{77AD76E1-21E8-4FAA-9BE5-7713EECF0F6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Static", "Static", "{E24FE7B7-F8EA-4171-B15E-7970885B1EED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Static", "Static", "{B38AFA9E-E918-44E4-83CB-80DA89EB9899}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Static", "Static", "{8C145C5B-9A00-4AB2-80F9-33ABBA71715D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.GTFS.Static.Subway.IntegrationTests", "Tests.GTFS.Static.Subway.IntegrationTests\Tests.GTFS.Static.Subway.IntegrationTests.csproj", "{F60A2485-7247-406F-B6E1-E3C5859BC9F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5813243F-7785-44C4-8B7B-BCCDA4AAF831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5813243F-7785-44C4-8B7B-BCCDA4AAF831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5813243F-7785-44C4-8B7B-BCCDA4AAF831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5813243F-7785-44C4-8B7B-BCCDA4AAF831}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E19E7FD4-AAF2-40FC-BE8F-6BD3D91BB145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E19E7FD4-AAF2-40FC-BE8F-6BD3D91BB145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E19E7FD4-AAF2-40FC-BE8F-6BD3D91BB145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E19E7FD4-AAF2-40FC-BE8F-6BD3D91BB145}.Release|Any CPU.Build.0 = Release|Any CPU
+		{375F499E-FE96-45F6-ACBA-7E7429A1F5B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{375F499E-FE96-45F6-ACBA-7E7429A1F5B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{375F499E-FE96-45F6-ACBA-7E7429A1F5B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{375F499E-FE96-45F6-ACBA-7E7429A1F5B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77AD76E1-21E8-4FAA-9BE5-7713EECF0F6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77AD76E1-21E8-4FAA-9BE5-7713EECF0F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77AD76E1-21E8-4FAA-9BE5-7713EECF0F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77AD76E1-21E8-4FAA-9BE5-7713EECF0F6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F60A2485-7247-406F-B6E1-E3C5859BC9F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F60A2485-7247-406F-B6E1-E3C5859BC9F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F60A2485-7247-406F-B6E1-E3C5859BC9F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F60A2485-7247-406F-B6E1-E3C5859BC9F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5813243F-7785-44C4-8B7B-BCCDA4AAF831} = {E24FE7B7-F8EA-4171-B15E-7970885B1EED}
+		{E19E7FD4-AAF2-40FC-BE8F-6BD3D91BB145} = {E24FE7B7-F8EA-4171-B15E-7970885B1EED}
+		{375F499E-FE96-45F6-ACBA-7E7429A1F5B0} = {8C145C5B-9A00-4AB2-80F9-33ABBA71715D}
+		{77AD76E1-21E8-4FAA-9BE5-7713EECF0F6F} = {B38AFA9E-E918-44E4-83CB-80DA89EB9899}
+		{E24FE7B7-F8EA-4171-B15E-7970885B1EED} = {075C0A28-30BF-47AD-8F18-D18EE6A68967}
+		{B38AFA9E-E918-44E4-83CB-80DA89EB9899} = {6DC96361-C083-4DA1-A7ED-507DCF2150BF}
+		{8C145C5B-9A00-4AB2-80F9-33ABBA71715D} = {DA26DA49-07EC-4591-AFD4-E315411CDD10}
+		{F60A2485-7247-406F-B6E1-E3C5859BC9F9} = {8C145C5B-9A00-4AB2-80F9-33ABBA71715D}
+	EndGlobalSection
+EndGlobal
