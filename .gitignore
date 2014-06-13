@@ -172,3 +172,4 @@ UpgradeLog*.htm
 
 # Microsoft Fakes
 FakesAssemblies/
+server-api/ServerAPI/ServerAPI.sln.GhostDoc.xml
