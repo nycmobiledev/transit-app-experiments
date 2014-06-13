@@ -23,6 +23,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Static", "Static", "{B38AFA
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Static", "Static", "{8C145C5B-9A00-4AB2-80F9-33ABBA71715D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.GTFS.Static.Subway.IntegrationTests", "Tests.GTFS.Static.Subway.IntegrationTests\Tests.GTFS.Static.Subway.IntegrationTests.csproj", "{F60A2485-7247-406F-B6E1-E3C5859BC9F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{77AD76E1-21E8-4FAA-9BE5-7713EECF0F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77AD76E1-21E8-4FAA-9BE5-7713EECF0F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77AD76E1-21E8-4FAA-9BE5-7713EECF0F6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F60A2485-7247-406F-B6E1-E3C5859BC9F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F60A2485-7247-406F-B6E1-E3C5859BC9F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F60A2485-7247-406F-B6E1-E3C5859BC9F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F60A2485-7247-406F-B6E1-E3C5859BC9F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,5 +63,6 @@ Global
 		{E24FE7B7-F8EA-4171-B15E-7970885B1EED} = {075C0A28-30BF-47AD-8F18-D18EE6A68967}
 		{B38AFA9E-E918-44E4-83CB-80DA89EB9899} = {6DC96361-C083-4DA1-A7ED-507DCF2150BF}
 		{8C145C5B-9A00-4AB2-80F9-33ABBA71715D} = {DA26DA49-07EC-4591-AFD4-E315411CDD10}
+		{F60A2485-7247-406F-B6E1-E3C5859BC9F9} = {8C145C5B-9A00-4AB2-80F9-33ABBA71715D}
 	EndGlobalSection
 EndGlobal
