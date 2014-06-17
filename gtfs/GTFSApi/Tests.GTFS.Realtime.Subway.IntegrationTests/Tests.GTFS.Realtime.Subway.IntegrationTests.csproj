@@ -59,6 +59,7 @@
     <None Include="protos\google\protobuf\csharp_options.proto" />
     <None Include="protos\google\protobuf\descriptor.proto" />
     <None Include="protos\transit\gtfs-realtime.proto" />
+    <None Include="protos\transit\nyct-subway.proto" />
     <None Include="protos\tutorial\addressbook.proto" />
   </ItemGroup>
   <ItemGroup>
