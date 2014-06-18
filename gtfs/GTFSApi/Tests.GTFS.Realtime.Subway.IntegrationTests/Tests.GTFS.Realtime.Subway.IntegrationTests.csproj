@@ -30,7 +30,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Google.ProtocolBuffers">
+    <Reference Include="Google.ProtocolBuffers, Version=2.4.1.521, Culture=neutral, PublicKeyToken=55f7125234beb589, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Google.ProtocolBuffers.2.4.1.521\lib\net40\Google.ProtocolBuffers.dll</HintPath>
     </Reference>
     <Reference Include="Google.ProtocolBuffers.Serialization">
@@ -51,23 +52,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="FeedLoadingTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
-    <None Include="protos\google\protobuf\csharp_options.proto" />
-    <None Include="protos\google\protobuf\descriptor.proto" />
-    <None Include="protos\transit\gtfs-realtime.proto" />
-    <None Include="protos\transit\nyct-subway.proto" />
-    <None Include="protos\tutorial\addressbook.proto" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="CHANGES.txt" />
     <Content Include="licenses\license.txt" />
     <Content Include="licenses\protoc-license.txt" />
-    <Content Include="tools\protoc-license.txt" />
-    <Content Include="tools\protoc.exe" />
+    <None Include="FeedMessage.json" />
+    <None Include="gtfs_123456S">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="gtfs_L">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="NYCTHeader.json" />
+    <None Include="packages.config" />
+    <None Include="protos\google\protobuf\csharp_options.proto" />
+    <None Include="protos\google\protobuf\descriptor.proto" />
+    <None Include="protos\tutorial\addressbook.proto" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Infrastructure.GTFS.Realtime.Subway.ProtocolBuffers\Infrastructure.GTFS.Realtime.Subway.ProtocolBuffers.csproj">
+      <Project>{2ccd1df4-be99-4263-be1b-7541d9ab9897}</Project>
+      <Name>Infrastructure.GTFS.Realtime.Subway.ProtocolBuffers</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
