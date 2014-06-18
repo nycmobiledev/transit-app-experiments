@@ -66,6 +66,8 @@
     <Content Include="CHANGES.txt" />
     <Content Include="licenses\license.txt" />
     <Content Include="licenses\protoc-license.txt" />
+    <Content Include="tools\protoc-license.txt" />
+    <Content Include="tools\protoc.exe" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
