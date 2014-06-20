@@ -1,0 +1,54 @@
+<mockup version="1.0" skin="sketch" measuredW="324" measuredH="357" mockupW="225" mockupH="324">
+  <controls>
+    <control controlID="12" controlTypeID="__group__" x="99" y="33" w="225" h="324" measuredW="225" measuredH="324" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>iPhone%20Location%20Request</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="225" h="324" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="12">
+          <controlProperties>
+            <backgroundAlpha>0.75</backgroundAlpha>
+            <borderStyle>none</borderStyle>
+            <color>6710886</color>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="__group__" x="4" y="72" w="217" h="112" measuredW="217" measuredH="112" zOrder="1" locked="false" isInGroup="12">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::RoundButton" x="0" y="0" w="217" h="112" measuredW="32" measuredH="32" zOrder="0" locked="false" isInGroup="1">
+              <controlProperties>
+                <backgroundAlpha>0.75</backgroundAlpha>
+                <borderColor>16777215</borderColor>
+                <color>472931</color>
+                <shape>roundRect</shape>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Paragraph" x="8" y="15" w="200" h="43" measuredW="200" measuredH="140" zOrder="1" locked="false" isInGroup="1">
+              <controlProperties>
+                <align>center</align>
+                <color>16777215</color>
+                <size>14</size>
+                <text>%22drawnn%22%20Would%20Like%20to%20Use%20%0AYour%20Current%20Location</text>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::PointyButton" x="11" y="67" w="-1" h="-1" measuredW="99" measuredH="27" zOrder="2" locked="false" isInGroup="1">
+              <controlProperties>
+                <color>5865130</color>
+                <direction>center</direction>
+                <size>16</size>
+                <text>Don%27t%20Allow</text>
+              </controlProperties>
+            </control>
+            <control controlID="3" controlTypeID="com.balsamiq.mockups::PointyButton" x="119" y="67" w="85" h="30" measuredW="43" measuredH="27" zOrder="3" locked="false" isInGroup="1">
+              <controlProperties>
+                <color>5865130</color>
+                <direction>center</direction>
+                <size>16</size>
+                <text>OK</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</mockup>

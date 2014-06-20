@@ -1,0 +1,56 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="676" measuredH="636" mockupW="282" mockupH="573">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="394" y="63" w="-1" h="-1" measuredW="282" measuredH="573" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <model>IPhone5</model>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="__group__" x="422" y="192" w="220" h="56" measuredW="220" measuredH="56" zOrder="1" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="220" h="56" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="3">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <color>40463</color>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="28" y="9" w="-1" h="-1" measuredW="162" measuredH="21" zOrder="1" locked="false" isInGroup="3">
+          <controlProperties>
+            <color>16777215</color>
+            <text>14th%20Street%20%u2013%20Union%20Square</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="28" y="30" w="-1" h="-1" measuredW="32" measuredH="21" zOrder="2" locked="false" isInGroup="3">
+          <controlProperties>
+            <color>16777215</color>
+            <text>4%205%206</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="511" y="164" w="-1" h="-1" measuredW="49" measuredH="21" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Stations</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="__group__" x="422" y="248" w="220" h="56" measuredW="220" measuredH="56" zOrder="3" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="220" h="56" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="7">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <color>16750848</color>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="25" y="8" w="-1" h="-1" measuredW="67" measuredH="21" zOrder="1" locked="false" isInGroup="7">
+          <controlProperties>
+            <text>57th%20Street</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="25" y="29" w="-1" h="-1" measuredW="10" measuredH="21" zOrder="2" locked="false" isInGroup="7">
+          <controlProperties>
+            <text>F</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</mockup>

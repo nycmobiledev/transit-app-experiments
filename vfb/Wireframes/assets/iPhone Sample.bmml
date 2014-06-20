@@ -1,0 +1,238 @@
+<mockup version="1.0" skin="sketch" measuredW="902" measuredH="531" mockupW="882" mockupH="510">
+  <controls>
+    <control controlID="36" controlTypeID="__group__" x="620" y="21" w="282" h="510" measuredW="282" measuredH="510" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>iPhone%20Sample%203</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="0" y="0" w="-1" h="-1" measuredW="282" measuredH="510" zOrder="0" locked="false" isInGroup="36">
+          <controlProperties>
+            <bgPattern>topBlackBottom</bgPattern>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::PointyButton" x="30" y="107" w="-1" h="-1" measuredW="37" measuredH="27" zOrder="1" locked="false" isInGroup="36">
+          <controlProperties>
+            <color>2848996</color>
+            <direction>center</direction>
+            <icon>ReloadIcon%7Cxsmall</icon>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="107" y="108" w="-1" h="-1" measuredW="48" measuredH="21" zOrder="2" locked="false" isInGroup="36">
+          <controlProperties>
+            <color>16777215</color>
+            <text>Friends</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::iPhoneMenu" x="33" y="148" w="-1" h="-1" measuredW="215" measuredH="210" zOrder="3" locked="false" isInGroup="36">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <text>__%20Scobleizer%2C%20%3E%0A__%20Balsamiq%2C%20%3E%0A__%20timoreilly%3A%20RT%20...%2C%20%28%3E%29%0A__%20guykawasaki...%2C%20%28%3E%29</text>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::PointyButton" x="210" y="106" w="-1" h="-1" measuredW="37" measuredH="27" zOrder="4" locked="false" isInGroup="36">
+          <controlProperties>
+            <color>2848996</color>
+            <direction>center</direction>
+            <icon>WriteIcon%7Cxsmall</icon>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::IconLabel" x="30" y="386" w="-1" h="-1" measuredW="38" measuredH="33" zOrder="5" locked="false" isInGroup="36">
+          <controlProperties>
+            <color>6737151</color>
+            <icon>UsersIcon%7Cxsmall</icon>
+            <size>10</size>
+            <text>Friends</text>
+          </controlProperties>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::IconLabel" x="75" y="386" w="-1" h="-1" measuredW="38" measuredH="33" zOrder="6" locked="false" isInGroup="36">
+          <controlProperties>
+            <color>16777215</color>
+            <icon>UsersIcon%7Cxsmall</icon>
+            <size>10</size>
+            <text>Replies</text>
+          </controlProperties>
+        </control>
+        <control controlID="7" controlTypeID="com.balsamiq.mockups::IconLabel" x="120" y="386" w="-1" h="-1" measuredW="51" measuredH="33" zOrder="7" locked="false" isInGroup="36">
+          <controlProperties>
+            <color>16777215</color>
+            <icon>EmailIcon%7Cxsmall</icon>
+            <size>10</size>
+            <text>Messages</text>
+          </controlProperties>
+        </control>
+        <control controlID="8" controlTypeID="com.balsamiq.mockups::IconLabel" x="165" y="386" w="-1" h="-1" measuredW="48" measuredH="33" zOrder="8" locked="false" isInGroup="36">
+          <controlProperties>
+            <color>16777215</color>
+            <icon>StarIcon%7Cxsmall</icon>
+            <size>10</size>
+            <text>Favorites</text>
+          </controlProperties>
+        </control>
+        <control controlID="9" controlTypeID="com.balsamiq.mockups::IconLabel" x="210" y="386" w="-1" h="-1" measuredW="37" measuredH="33" zOrder="9" locked="false" isInGroup="36">
+          <controlProperties>
+            <color>16777215</color>
+            <icon>SearchIcon%7Cxsmall</icon>
+            <size>10</size>
+            <text>Search</text>
+          </controlProperties>
+        </control>
+        <control controlID="10" controlTypeID="com.balsamiq.mockups::Canvas" x="36" y="148" w="56" h="48" measuredW="100" measuredH="70" zOrder="10" locked="false" isInGroup="36"/>
+        <control controlID="11" controlTypeID="com.balsamiq.mockups::Canvas" x="36" y="204" w="56" h="48" measuredW="100" measuredH="70" zOrder="11" locked="false" isInGroup="36"/>
+        <control controlID="12" controlTypeID="com.balsamiq.mockups::Canvas" x="36" y="260" w="56" h="48" measuredW="100" measuredH="70" zOrder="12" locked="false" isInGroup="36"/>
+        <control controlID="13" controlTypeID="com.balsamiq.mockups::Canvas" x="36" y="316" w="56" h="48" measuredW="100" measuredH="70" zOrder="13" locked="false" isInGroup="36"/>
+        <control controlID="14" controlTypeID="com.balsamiq.mockups::Icon" x="48" y="156" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="14" locked="false" isInGroup="36">
+          <controlProperties>
+            <icon>ContactIcon%7Cmedium</icon>
+          </controlProperties>
+        </control>
+        <control controlID="15" controlTypeID="com.balsamiq.mockups::Icon" x="48" y="212" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="15" locked="false" isInGroup="36">
+          <controlProperties>
+            <icon>ContactIcon%7Cmedium</icon>
+          </controlProperties>
+        </control>
+        <control controlID="16" controlTypeID="com.balsamiq.mockups::Icon" x="48" y="268" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="16" locked="false" isInGroup="36">
+          <controlProperties>
+            <icon>ContactIcon%7Cmedium</icon>
+          </controlProperties>
+        </control>
+        <control controlID="17" controlTypeID="com.balsamiq.mockups::Icon" x="48" y="328" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="17" locked="false" isInGroup="36">
+          <controlProperties>
+            <icon>ContactIcon%7Cmedium</icon>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="38" controlTypeID="__group__" x="20" y="21" w="282" h="510" measuredW="282" measuredH="510" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>iPhone%20Sample%201</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="0" y="0" w="-1" h="-1" measuredW="282" measuredH="510" zOrder="0" locked="false" isInGroup="38">
+          <controlProperties>
+            <bgPattern>topOnly</bgPattern>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::PointyButton" x="30" y="107" w="-1" h="-1" measuredW="68" measuredH="27" zOrder="1" locked="false" isInGroup="38">
+          <controlProperties>
+            <color>2848996</color>
+            <direction>left</direction>
+            <text>Settings</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="103" y="110" w="-1" h="-1" measuredW="94" measuredH="21" zOrder="2" locked="false" isInGroup="38">
+          <controlProperties>
+            <color>16777215</color>
+            <text>Wi-Fi%20Networks</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="34" y="181" w="-1" h="-1" measuredW="106" measuredH="20" zOrder="3" locked="false" isInGroup="38">
+          <controlProperties>
+            <size>12</size>
+            <text>Choose%20a%20Network%3A</text>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::iPhoneMenu" x="32" y="141" w="-1" h="-1" measuredW="215" measuredH="40" zOrder="4" locked="false" isInGroup="38">
+          <controlProperties>
+            <text>Wi-Fi%2C%20ON</text>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::iPhoneMenu" x="32" y="202" w="-1" h="-1" measuredW="215" measuredH="126" zOrder="5" locked="false" isInGroup="38">
+          <controlProperties>
+            <text>_%20Alice%2C%20%28%3E%29%0Av%20Balsamiq%2C%20%28%3E%29%0A_%20Untitled%2C%20%28%3E%29%0A_%20Other%2C%20%3E</text>
+          </controlProperties>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::iPhoneMenu" x="32" y="328" w="-1" h="-1" measuredW="215" measuredH="40" zOrder="6" locked="false" isInGroup="38">
+          <controlProperties>
+            <text>Ask%20to%20Join%20Network%2C%20ON</text>
+          </controlProperties>
+        </control>
+        <control controlID="7" controlTypeID="com.balsamiq.mockups::Paragraph" x="32" y="368" w="215" h="50" measuredW="200" measuredH="140" zOrder="7" locked="false" isInGroup="38">
+          <controlProperties>
+            <align>center</align>
+            <color>5263440</color>
+            <size>10</size>
+            <text>Known%20networks%20will%20be%20joined%20automatically.%0AIf%20no%20know%20networks%20are%20available%2C%20you%20will%20be%20asked%20before%20joining%20a%20new%20network.</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="39" controlTypeID="__group__" x="323" y="21" w="282" h="510" measuredW="282" measuredH="510" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>iPhone%20Sample%202</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="0" y="0" w="-1" h="-1" measuredW="282" measuredH="510" zOrder="0" locked="false" isInGroup="39">
+          <controlProperties>
+            <bgPattern>topBlackBottom</bgPattern>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="__group__" x="32" y="108" w="217" h="316" measuredW="217" measuredH="316" zOrder="1" locked="false" isInGroup="39">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="81" y="0" w="-1" h="-1" measuredW="53" measuredH="21" zOrder="0" locked="false" isInGroup="1">
+              <controlProperties>
+                <color>16777215</color>
+                <text>Settings</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="2" y="73" w="-1" h="-1" measuredW="44" measuredH="20" zOrder="1" locked="false" isInGroup="1">
+              <controlProperties>
+                <size>12</size>
+                <text>Search</text>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::iPhoneMenu" x="0" y="33" w="-1" h="-1" measuredW="215" measuredH="39" zOrder="2" locked="false" isInGroup="1">
+              <controlProperties>
+                <text>Start%20Screen%2C%20Last%20Used%20%3E</text>
+              </controlProperties>
+            </control>
+            <control controlID="3" controlTypeID="com.balsamiq.mockups::iPhoneMenu" x="0" y="94" w="-1" h="-1" measuredW="215" measuredH="98" zOrder="3" locked="false" isInGroup="1">
+              <controlProperties>
+                <text>Searchable%20Items%2C%20%3E%0ASafeSearch%2C%20Moderate%20%3E%0AVoice%20Search%2C%20ON</text>
+              </controlProperties>
+            </control>
+            <control controlID="4" controlTypeID="com.balsamiq.mockups::Paragraph" x="2" y="192" w="215" h="50" measuredW="200" measuredH="140" zOrder="4" locked="false" isInGroup="1">
+              <controlProperties>
+                <align>center</align>
+                <color>5263440</color>
+                <size>11</size>
+                <text>Voice%20Search%20only%20works%20in%20English%2C%20and%20works%20best%20for%20North%20American%20English%20accents.</text>
+              </controlProperties>
+            </control>
+            <control controlID="5" controlTypeID="com.balsamiq.mockups::Label" x="2" y="242" w="-1" h="-1" measuredW="32" measuredH="20" zOrder="5" locked="false" isInGroup="1">
+              <controlProperties>
+                <size>12</size>
+                <text>Apps</text>
+              </controlProperties>
+            </control>
+            <control controlID="6" controlTypeID="com.balsamiq.mockups::IconLabel" x="2" y="279" w="-1" h="-1" measuredW="43" measuredH="36" zOrder="6" locked="false" isInGroup="1">
+              <controlProperties>
+                <color>16777215</color>
+                <icon>SearchIcon%7Cxsmall</icon>
+                <size>12</size>
+                <text>Search</text>
+              </controlProperties>
+            </control>
+            <control controlID="7" controlTypeID="com.balsamiq.mockups::IconLabel" x="94" y="280" w="-1" h="-1" measuredW="31" measuredH="36" zOrder="7" locked="false" isInGroup="1">
+              <controlProperties>
+                <color>16777215</color>
+                <icon>PagesIcon%7Cxsmall</icon>
+                <size>12</size>
+                <text>Apps</text>
+              </controlProperties>
+            </control>
+            <control controlID="8" controlTypeID="com.balsamiq.mockups::IconLabel" x="166" y="278" w="-1" h="-1" measuredW="47" measuredH="36" zOrder="8" locked="false" isInGroup="1">
+              <controlProperties>
+                <color>6737151</color>
+                <icon>GearIcon%7Cxsmall</icon>
+                <size>12</size>
+                <text>Settings</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</mockup>
