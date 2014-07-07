@@ -11,7 +11,7 @@ namespace NYCMobileDev.TransitApp.Tests.GTFS.Realtime.Subway.IntegrationTests
     public class FeedLoadingTests
     {
         private const string TestFeedFile1 = "gtfs_123456S";
-        private const string TestFeedFile2 = "gtfs_L";
+        //private const string TestFeedFile2 = "gtfs_L";
 
         [Test]
         public void Should_Verify_Data_File_Exists()
@@ -33,17 +33,54 @@ namespace NYCMobileDev.TransitApp.Tests.GTFS.Realtime.Subway.IntegrationTests
         }
 
         [Test]
+        public void Should_Return_TripReplacementPeriods()
+        {
+            var data = File.ReadAllBytes(TestFeedFile1);
+            var header = NyctFeedHeader.ParseFrom(data);
+
+            Assert.That(header.TripReplacementPeriodCount, Is.GreaterThan(0));
+
+            foreach (var tripReplacementPeriod in header.TripReplacementPeriodList) {
+                Console.WriteLine("Route ID: {0}\treplacement_period: {1}", tripReplacementPeriod.RouteId, tripReplacementPeriod.ReplacementPeriod.ToJson());
+            }
+        }
+
+        [Test]
+        public void Should_Return_Header()
+        {
+            var data = File.ReadAllBytes(TestFeedFile1);
+            var message = FeedMessage.ParseFrom(data);
+            
+            Assert.That(message.HasHeader, Is.True);
+            
+            var header = message.Header;
+            Assert.That(header.GtfsRealtimeVersion, Is.EqualTo("1.0"));
+            Assert.That(header.IsInitialized, Is.True);
+            Assert.That(header.HasTimestamp, Is.True);
+            Assert.That(header.Timestamp, Is.EqualTo(1404712481));
+
+            Console.WriteLine(header.ToJson());
+
+            Console.WriteLine("Timestamp: {0}", UnixTimeStampToDateTime(header.Timestamp));
+        }
+
+        [Test]
         public void Should_Return_Message()
         {
             var data = File.ReadAllBytes(TestFeedFile1);
             var message = FeedMessage.ParseFrom(data);
             
-
-            Assert.That(message.HasHeader, Is.True);
-            Assert.That(message.Header.GtfsRealtimeVersion, Is.EqualTo("1.0"));
             Assert.That(message.EntityCount, Is.GreaterThan(0));
             
             Console.WriteLine(message.ToJson());
+        }
+
+
+        private static DateTime UnixTimeStampToDateTime(ulong unixTimeStamp)
+        {
+            // Unix timestamp is seconds past epoch
+            var dtDateTime = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc);
+            return dtDateTime.AddSeconds(unixTimeStamp).ToLocalTime();
         }
     }
 }

@@ -1,5 +1,5 @@
 ﻿{
-   "nyct_subway_version":"\n\u00031.0\u0010\u0000\u0018\ufffd\ufffd\ufffd\ufffd\u0005\ufffd>\u0012\n\u00031.0\u0012\u000b\n\u0001L\u0012\u0006\u0010\ufffd\ufffd\ufffd\ufffd\u0005",
+   "nyct_subway_version":"\n\u00031.0\u0010\u0000\u0018\ufffd\ufffd\ufffd\u0005\ufffd>\u0012\n\u00031.0\u0012\u000b\n\u0001L\u0012\u0006\u0010\ufffd\ufffd\ufffd\u0005",
    "trip_replacement_period":[
       {
          "route_id":"1"
@@ -101,31 +101,16 @@
          "route_id":"33"
       },
       {
-         "route_id":"34"
-      },
-      {
          "route_id":"35"
-      },
-      {
-         "route_id":"36"
       },
       {
          "route_id":"37"
       },
       {
-         "route_id":"38"
-      },
-      {
          "route_id":"39"
       },
       {
-         "route_id":"40"
-      },
-      {
          "route_id":"41"
-      },
-      {
-         "route_id":"42"
       },
       {
          "route_id":"43"
@@ -135,33 +120,6 @@
       },
       {
          "route_id":"47"
-      },
-      {
-         "route_id":"49"
-      },
-      {
-         "route_id":"51"
-      },
-      {
-         "route_id":"53"
-      },
-      {
-         "route_id":"55"
-      },
-      {
-         "route_id":"57"
-      },
-      {
-         "route_id":"59"
-      },
-      {
-         "route_id":"61"
-      },
-      {
-         "route_id":"63"
-      },
-      {
-         "route_id":"65"
       }
    ]
 }
