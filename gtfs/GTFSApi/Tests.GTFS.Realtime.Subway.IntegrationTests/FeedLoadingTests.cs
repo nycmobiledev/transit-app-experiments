@@ -83,15 +83,21 @@ namespace NYCMobileDev.TransitApp.Tests.GTFS.Realtime.Subway.IntegrationTests
 
             var data = File.ReadAllBytes(TestFeedFile1);
             var message = FeedMessage.ParseFrom(data);
-
+            
             foreach (var feedEntity in message.EntityList) {
+                Console.WriteLine("ID: {0}", feedEntity.Id);
                 if (feedEntity.HasTripUpdate) {
-                    Console.WriteLine("ID: {0}", feedEntity.Id);
-                    Console.WriteLine("Trip ID: {0}", feedEntity.TripUpdate.Trip.TripId);
-                    Console.WriteLine("Route ID: {0}", feedEntity.TripUpdate.Trip.RouteId);
-                    Console.WriteLine("Start Date: {0}", feedEntity.TripUpdate.Trip.StartDate);
-                    Console.WriteLine("Schedule Relationship: {0}", feedEntity.TripUpdate.Trip.ScheduleRelationship);
-                    NyctTripDescriptor nyDescriptor = NyctTripDescriptor.ParseFrom(feedEntity.ToByteArray());
+                    TripDescriptor trip = feedEntity.TripUpdate.Trip;
+                    Console.WriteLine("Trip ID: {0}", trip.TripId);
+                    Console.WriteLine("Route ID: {0}", trip.RouteId);
+                    Console.WriteLine("Start Date: {0}", trip.StartDate);
+                    Console.WriteLine("Schedule Relationship: {0}", trip.ScheduleRelationship);
+
+                    var nyDescriptor = NyctTripDescriptor.ParseFrom(feedEntity.TripUpdate.Trip.ToByteArray());
+                    //var nyDescriptor = NyctTripDescriptor.ParseFrom(feedEntity.TripUpdate.ToByteArray());
+                    //var nyDescriptor = NyctTripDescriptor.ParseFrom(feedEntity.ToByteArray());
+                    //var nyDescriptor = trip.GetExtension(SubwayProtos.NyctTripDescriptor);
+                    //var nyDescriptor = feedEntity.TripUpdate.GetExtension(SubwayProtos.NyctTripDescriptor);
 
                     if (nyDescriptor != null) {
                         Console.WriteLine("----------------------------------------------");
@@ -99,9 +105,8 @@ namespace NYCMobileDev.TransitApp.Tests.GTFS.Realtime.Subway.IntegrationTests
                         Console.WriteLine("Is Assigned: {0}", nyDescriptor.IsAssigned);
                         Console.WriteLine("Train ID: {0}", nyDescriptor.TrainId);
                     }
-
-                    Console.WriteLine("==============================================\n");
                 }
+                Console.WriteLine("==============================================\n");
 
             }
             
