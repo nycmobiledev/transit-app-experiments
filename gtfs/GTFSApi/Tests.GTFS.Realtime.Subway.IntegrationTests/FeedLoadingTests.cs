@@ -93,12 +93,12 @@ namespace NYCMobileDev.TransitApp.Tests.GTFS.Realtime.Subway.IntegrationTests
                     Console.WriteLine("Start Date: {0}", trip.StartDate);
                     Console.WriteLine("Schedule Relationship: {0}", trip.ScheduleRelationship);
 
-                    var nyDescriptor = NyctTripDescriptor.ParseFrom(feedEntity.TripUpdate.Trip.ToByteArray());
+                    //var nyDescriptor = NyctTripDescriptor.ParseFrom(trip.ToByteString());
                     //var nyDescriptor = NyctTripDescriptor.ParseFrom(feedEntity.TripUpdate.ToByteArray());
                     //var nyDescriptor = NyctTripDescriptor.ParseFrom(feedEntity.ToByteArray());
-                    //var nyDescriptor = trip.GetExtension(SubwayProtos.NyctTripDescriptor);
-                    //var nyDescriptor = feedEntity.TripUpdate.GetExtension(SubwayProtos.NyctTripDescriptor);
-
+                    var nyDescriptor = trip.GetExtension(SubwayProtos.NyctTripDescriptor);
+                    Console.WriteLine("Has Extension: {0}", trip.HasExtension(SubwayProtos.NyctTripDescriptor));
+                    
                     if (nyDescriptor != null) {
                         Console.WriteLine("----------------------------------------------");
                         Console.WriteLine("Direction: {0}", nyDescriptor.Direction);
