@@ -3,10 +3,11 @@
 //
 option java_package = "com.google.transit.realtime"; 
 
-import "transit/gtfs-realtime.proto";
-import "google/protobuf/csharp_options.proto";
-option (google.protobuf.csharp_file_options).namespace = "NYCMobileDev.TransitApp.Infrastructure.GTFS.Realtime.Subway.ProtocolBuffers";
-option (google.protobuf.csharp_file_options).umbrella_classname = "SubwayProtos";
+import "gtfs-realtime.proto";
+//import "transit/gtfs-realtime.proto";
+//import "google/protobuf/csharp_options.proto";
+//option (google.protobuf.csharp_file_options).namespace = "NYCMobileDev.TransitApp.Infrastructure.GTFS.Realtime.Subway.ProtocolBuffers";
+//option (google.protobuf.csharp_file_options).umbrella_classname = "SubwayProtos";
 
 
 message TripReplacementPeriod {
