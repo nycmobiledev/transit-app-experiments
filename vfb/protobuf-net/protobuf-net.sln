@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "protobuf-net-tests", "protobuf-net-tests\protobuf-net-tests.csproj", "{69CF1941-273D-4F1D-902E-8C8F5D7CBCE3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GtfsRealtime.Tests", "GtfsRealtime.Tests\GtfsRealtime.Tests.csproj", "{4FA48892-74BD-4471-BB95-0143A23E0345}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{69CF1941-273D-4F1D-902E-8C8F5D7CBCE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{69CF1941-273D-4F1D-902E-8C8F5D7CBCE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{69CF1941-273D-4F1D-902E-8C8F5D7CBCE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{69CF1941-273D-4F1D-902E-8C8F5D7CBCE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FA48892-74BD-4471-BB95-0143A23E0345}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FA48892-74BD-4471-BB95-0143A23E0345}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FA48892-74BD-4471-BB95-0143A23E0345}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FA48892-74BD-4471-BB95-0143A23E0345}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

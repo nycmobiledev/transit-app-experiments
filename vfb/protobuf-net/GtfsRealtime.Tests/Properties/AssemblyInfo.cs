@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("protobuf-net-tests")]
+[assembly: AssemblyTitle("GtfsRealtime.Tests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("protobuf-net-tests")]
+[assembly: AssemblyProduct("GtfsRealtime.Tests")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("f15723c6-eb12-4b26-ac1f-ecb481388389")]
+[assembly: Guid("808e84d2-c17e-4a9e-a0d6-6cba84ff8d53")]
 
 // Version information for an assembly consists of the following four values:
 //
