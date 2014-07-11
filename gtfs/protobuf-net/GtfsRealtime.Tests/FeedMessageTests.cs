@@ -76,44 +76,50 @@ namespace GtfsRealtime.Tests
             }
         }
 
-        private void PrintAlert(FeedEntity feedEntity)
+        private static void PrintAlert(FeedEntity feedEntity)
         {
             if (feedEntity.alert != null) {
-                Console.WriteLine("header_text: {0}", feedEntity.alert.header_text.translation[0].text);
+                Console.WriteLine("Type: Alert");
+                Console.WriteLine("Header Text: {0}", feedEntity.alert.header_text.translation[0].text);
             }
         }
 
-        private void PrintVehiclePosition(FeedEntity feedEntity)
+        private static void PrintVehiclePosition(FeedEntity feedEntity)
         {
             if (feedEntity.vehicle != null) {
+                Console.WriteLine("Type: Vehicle Position");
                 PrintTripDescriptor(feedEntity.vehicle.trip);
-                Console.WriteLine(feedEntity.vehicle.congestion_level);
-                Console.WriteLine(feedEntity.vehicle.current_status);
-                Console.WriteLine(feedEntity.vehicle.current_stop_sequence);
+                Console.WriteLine("Congestion Level: {0}", feedEntity.vehicle.congestion_level);
+                Console.WriteLine("Current Status: {0}", feedEntity.vehicle.current_status);
+                Console.WriteLine("Curent Stop Sequence: {0}", feedEntity.vehicle.current_stop_sequence);
                 //Console.WriteLine(feedEntity.vehicle.position.ToString() ?? "");
-                Console.WriteLine(feedEntity.vehicle.stop_id);
-                Console.WriteLine(UnixTimeStampToDateTime(feedEntity.vehicle.timestamp));
-                Console.WriteLine(feedEntity.vehicle.trip);
+                Console.WriteLine("Stop ID: {0}", feedEntity.vehicle.stop_id);
+                Console.WriteLine("Timestamp: {0}", UnixTimeStampToDateTime(feedEntity.vehicle.timestamp));
             }
         }
 
         private static void PrintTripUpdate(FeedEntity feedEntity)
         {
             if (feedEntity.trip_update != null) {
+                Console.WriteLine("Type: Trip Update");
                 PrintTripDescriptor(feedEntity.trip_update.trip);
                 foreach (var stopTimeUpdate in feedEntity.trip_update.stop_time_update) {
                     if (stopTimeUpdate.arrival != null) {
-                        Console.WriteLine("Arrival: {0}\t{1}\t{2}", UnixTimeStampToDateTime((ulong) stopTimeUpdate.arrival.time),
+                        Console.WriteLine("Arrival: {0}\tDelay: {1}\tUncertainty: {2}", UnixTimeStampToDateTime((ulong)stopTimeUpdate.arrival.time),
                             stopTimeUpdate.arrival.delay, stopTimeUpdate.arrival.uncertainty);
                     }
                     if (stopTimeUpdate.departure != null) {
-                        Console.WriteLine("Departure: {0}\t{1}\t{2}", UnixTimeStampToDateTime((ulong) stopTimeUpdate.departure.time),
+                        Console.WriteLine("Departure: {0}\tDelay: {1}\tUncertainty: {2}", UnixTimeStampToDateTime((ulong) stopTimeUpdate.departure.time),
                             stopTimeUpdate.departure.delay, stopTimeUpdate.departure.uncertainty);
                     }
                     Console.WriteLine("Schedule Relationship: {0}", stopTimeUpdate.schedule_relationship);
                     Console.WriteLine("Stop ID: {0}", stopTimeUpdate.stop_id);
                     Console.WriteLine("Stop Sequence: {0}", stopTimeUpdate.stop_sequence);
-                    //TODO: Implement NyctStopTimeUpdate
+                    
+                    if (stopTimeUpdate.nyct_stop_time_update != null) {
+                        Console.WriteLine("Scheduled Track: {0}", stopTimeUpdate.nyct_stop_time_update.scheduled_track);
+                        Console.WriteLine("Actual Track: {0}", stopTimeUpdate.nyct_stop_time_update.actual_track);
+                    }
                     Console.WriteLine("-----------------------------------------------");
                 }
             }

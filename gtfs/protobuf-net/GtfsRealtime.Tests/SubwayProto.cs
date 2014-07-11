@@ -252,6 +252,17 @@ namespace transit_realtime
       get { return _schedule_relationship; }
       set { _schedule_relationship = value; }
     }
+
+      private nyct_subway.NyctStopTimeUpdate _nyct_stop_time_update = null;
+      [global::ProtoBuf.ProtoMember(1001, IsRequired = false, Name = @"nyct_stop_time_update",
+          DataFormat = global::ProtoBuf.DataFormat.Default)]
+      [global::System.ComponentModel.DefaultValue(null)]
+      public nyct_subway.NyctStopTimeUpdate nyct_stop_time_update
+      {
+          get { return _nyct_stop_time_update; }
+          set { _nyct_stop_time_update = value; }
+      }
+
     [global::ProtoBuf.ProtoContract(Name=@"ScheduleRelationship")]
     public enum ScheduleRelationship
     {
